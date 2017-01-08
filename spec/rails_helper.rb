@@ -24,9 +24,10 @@ require 'rspec/rails'
 
 # Checks for pending migrations before tests are run.
 # If you are not using ActiveRecord, you can remove this line.
-ActiveRecord::Migration.check_pending!
+ActiveRecord::Migrator.migrate(File.join(Rails.root, 'db/migrate'))
 
 RSpec.configure do |config|
+  config.include Devise::TestHelpers, type: :controller
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
 
