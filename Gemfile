@@ -4,6 +4,10 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.5'
 end
 
+gem 'simple_form'
+
+gem 'devise'
+
 gem 'bootstrap-sass', '~> 3.3.5.1'
 
 gem 'sprockets', '2.11.0'
