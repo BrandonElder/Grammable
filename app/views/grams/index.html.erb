@@ -35,7 +35,7 @@
       
       <h4 class="text-center">Add a comment</h4>
       <%= simple_form_for Comment.new, url: gram_comments_path(gram) do |f| %>
-        <%= f.input :message %>
+        <%= f.input_field :message %>
         <%= f.submit 'Post Comment', class: 'my-btn' %>
       <% end %>
     </div>

@@ -41,13 +41,31 @@ body {
   font-family: 'Pacifico', cursive;
 }
 
-.add a.new-post:hover {
-  color: grey
+.brand a {
+  text-decoration: none;
+  color: #125688;
 }
 
-.add a.sign-out:hover {
-  color:grey;
+.brand a:hover {
+  color: black;
 }
+
+a.new-post:hover {
+  color: black;
+}
+
+.new-post:hover {
+  text-decoration: none;
+}
+
+a.sign-out:hover {
+  color:black;
+}
+
+.sign-out:hover {
+  text-decoration: none;
+}
+
 
 
 
