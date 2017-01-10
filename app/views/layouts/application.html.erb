@@ -17,8 +17,8 @@
       <div class="add pull-right">
         <% if current_user %>
           Welcome, <%= current_user.email %>.
-          <%= link_to "New Post", new_gram_path %>
-          <%= link_to "Sign out", destroy_user_session_path, method: :delete %>
+          <%= link_to "New Post", new_gram_path, class: 'new-post' %>
+          <%= link_to "Sign out", destroy_user_session_path, class: 'sign-out', method: :delete %>
         <% else %>
           <%= link_to "Sign In", new_user_session_path %>
           <%= link_to "Sign Up", new_user_registration_path %>
@@ -30,6 +30,22 @@
 
 
 <%= yield %>
+
+<div class="cols-xs-8 col-xs-offset-2 col-md-4 col-md-offset-4 text-center footer">
+        <%= link_to 'https://github.com/BrandonElder' do %>
+          <%= image_tag 'github2.png', class: 'social-button', alt: 'GitHub Brandon Elder' %>
+        <% end %>
+        <%= link_to 'https://www.facebook.com/' do %>
+          <%= image_tag 'facebook2.png', class: 'social-button', alt: 'Facebook Brandon Elder' %>
+        <% end %>
+        <%= link_to 'https://www.twitter.com' do %>
+          <%= image_tag 'twitter2.png', class: 'social-button', alt: 'Twitter Brandon Elder' %>
+        <% end %>
+      </div>
+      <div class="col-xs-12 text-center blurb">
+        Built  by Brandon Elder for <a href="https://www.thefirehoseproject.com">The Firehose Project</a>.
+      </div>
+</div>
 
 </body>
 </html>

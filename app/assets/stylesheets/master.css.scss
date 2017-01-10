@@ -7,6 +7,12 @@ body {
 }
 
 
+.clr {
+  clear:both;
+}
+
+
+
 /* NAVBAR */
 
 .top-nav {
@@ -35,6 +41,16 @@ body {
   font-family: 'Pacifico', cursive;
 }
 
+.add a.new-post:hover {
+  color: grey
+}
+
+.add a.sign-out:hover {
+  color:grey;
+}
+
+
+
 
 /* GRAMS LISTING PAGE */
 
@@ -48,7 +64,7 @@ body {
 }
 
 .handle {
-  margin: 10px;
+  margin: 30px;
   color: #125688;
   font-weight: bold;
   font-size: 18px;
@@ -59,12 +75,19 @@ body {
   margin: 20px;
 }
 
+.glyphicon-user {
+  border: 1px solid #e8e8e8;
+  border-radius: 50%;
+  background-color: #fafafa;
+  padding: 20px
+}
+
 
 
 /* NEW GRAM PAGE */
 
 .card.form {
-  padding: 20px;
+  padding: 30px;
 }
 
 label {
@@ -85,6 +108,12 @@ input {
   margin-top: 10px;
   border-radius: 4px;
 }
+
+.my-btn:hover,
+.my-btn:active {
+  background-color: #42598A
+}
+
 
 
 /* SIGN IN FORM */
@@ -109,11 +138,26 @@ input {
   margin-right:20px;
 }
 
+.gram-actions {
+  margin-bottom: 10px;
+}
+
+.gram-actions .delete:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+.gram-actions .edit:hover {
+  color: grey
+}
+
+
+
 
 /* GRAMS COMMENTS */
 
 .comments {
-  padding: 20px;
+  padding: 5px 70px 20px 70px;
 }
 
 .comment {
@@ -125,4 +169,30 @@ input {
   color: #125688;
   font-weight: bold;
   font-size: 18px;
+}
+
+
+/* FOOTER */
+
+.footer {
+  margin-top: 60px;
+}
+
+.social-button {
+  width: 45px;
+  margin: 15px;
+  background-color: #fafafa;
+  border-radius: 50%;
+}
+
+.social-button:hover {
+  background-color: #125688;
+}
+
+.footer-social a {
+  text-decoration: none;
+}
+
+.blurb {
+  padding-bottom: 10px;
 }
