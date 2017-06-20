@@ -1,3 +1,142 @@
-// Place all the styles related to the grams controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+/* GRAMS LISTING PAGE */
+
+.clr {
+  clear:both;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: .25rem;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  border: 1px solid #e8e8e8;
+  margin-top: 40px;
+  padding: 0;
+}
+
+.handle {
+  margin: 30px;
+  color: #6D777A;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.card p, .card .message {
+  font-size: 18px;
+  margin: 20px;
+}
+
+.glyphicon-user {
+  border: 1px solid #e8e8e8;
+  border-radius: 50%;
+  background-color: #fafafa;
+  padding: 20px;
+  color: #125688;
+}
+
+
+/* NEW GRAM PAGE */
+
+.card.form {
+  padding: 30px;
+}
+
+label {
+  font-size: 18px;
+}
+
+input {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.my-btn {
+  background-color: #6D777A;
+  width: 36%;
+  border: none;
+  font-size: 20px;
+  color: white;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.my-btn:hover {
+  background-color: #42598A
+}
+
+.my-btn:focus,
+.my-btn:active {
+  outline: none;
+}
+
+
+/* SIGN IN FORM */
+
+/* Remember Me Box */
+
+.user_remember_me .form-control {
+  height: 20px;
+}
+
+.checkbox input[type="checkbox"] {
+  margin-left: -25px;
+}
+
+input[type="checkbox"] {
+  margin: 10px 0 0;
+  width: 20px;
+  float: left;
+}
+
+.input.boolean {
+  margin-left:18px;
+  margin-top:5px;
+}
+
+.input.boolean label {
+  margin-top:5px;
+  line-height: 44px;
+}
+
+
+/* GRAMS EDIT PAGE */
+
+.gram-actions a {
+  font-weight: bold;
+  font-size: 16px;
+  margin-right:20px;
+}
+
+.gram-actions {
+  margin-bottom: 10px;
+}
+
+.gram-actions .delete:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.gram-actions .edit:hover {
+  color: black
+}
+
+.edit:hover {
+  text-decoration: none;
+}
+
+
+/* GRAMS COMMENTS */
+
+.comments {
+  padding: 5px 70px 20px 70px;
+}
+
+.comment {
+  font-size: 16px;
+  margin-top:5px;
+}
+
+.comment_handle {
+  color: #125688;
+  font-weight: bold;
+  font-size: 18px;
+}

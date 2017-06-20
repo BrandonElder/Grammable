@@ -1,0 +1,52 @@
+/* NAVBAR */
+
+.top-nav {
+  background-color:white;
+  border-bottom-color: #edeeee;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  height:70px;
+  padding-top:15px;
+}
+
+.top-nav .add a {
+  font-weight: bold;
+  color: #125688;
+  font-size: 16px;
+  padding-left:8px;
+}
+
+.top-nav .add {
+  margin-top:10px;
+}
+
+.brand {
+  color: #125688;
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+}
+
+.brand a {
+  text-decoration: none;
+  color: #125688;
+}
+
+.brand a:hover {
+  color: black;
+}
+
+a.new-post:hover {
+  color: black;
+}
+
+.new-post:hover {
+  text-decoration: none;
+}
+
+a.sign-out:hover {
+  color:black;
+}
+
+.sign-out:hover {
+  text-decoration: none;
+}
